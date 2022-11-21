@@ -3,7 +3,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 // const URL = 'https://zoo-animal-api.herokuapp.com/animals/rand/10';
 // const URL2 = 'http://api.citybik.es/v2/networks';
-const URL3 = 'https://app.sportdataapi.com/api/v1/soccer/leagues?apikey=1f7cbf60-6960-11ed-b4e9-fbcb66786f56'; 
+const URL3 = 'https://app.sportdataapi.com/api/v1/soccer/leagues?apikey=1f7cbf60-6960-11ed-b4e9-fbcb66786f56';
 const GETAPIDATA = 'metrics/webapp/GETAPIDATA';
 
 const initialState = {
