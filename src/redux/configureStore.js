@@ -1,12 +1,12 @@
-import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
 import sliceForData from './metrics';
-
-const rootReducer = combineReducers({
-  apiData: sliceForData,
-});
+import detail from './details';
 
 const store = configureStore({
-  reducer: rootReducer,
+  reducer: {
+    apiData: sliceForData,
+    singleData: detail,
+  },
 });
 
 export default store;
