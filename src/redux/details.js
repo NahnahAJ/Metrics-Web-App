@@ -14,15 +14,21 @@ export const getOneApi = createAsyncThunk(
     try {
       const response = await axios.get(`http://acnhapi.com/v1/art/${id}`);
       const {
-        'buy-price': buyPrice, 'file-name': fileName, hasFake, image_uri: imageUrl, 'museum-desc': museumDesc,
+        'buy-price': buyPrice, 'file-name': fileName, hasFake, image_uri: imageUrl, 'sell-price': sellPrice, 'museum-desc': museumDesc, name,
       } = response.data;
+      const { 'name-EUen': nameEU } = name;
+
       const formatedData = {
         buyPrice,
         fileName,
         hasFake,
         imageUrl,
         museumDesc,
+        sellPrice,
+        name,
+        nameEU,
       };
+
       return formatedData;
     } catch (error) {
       return error;
