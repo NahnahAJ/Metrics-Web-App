@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Metrics component snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <input
+        placeholder="search here"
+        type="text"
+      />
+    </div>
+    <div>
+      <div />
+    </div>
+  </div>
+</DocumentFragment>
+`;
