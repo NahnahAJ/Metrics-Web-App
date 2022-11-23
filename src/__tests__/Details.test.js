@@ -16,3 +16,12 @@ test('Check if details component Renders', () => {
   const linkElement = screen.getAllByRole('generic');
   expect(linkElement.length).toBeGreaterThan(1);
 });
+
+test('renders the Details component snapshot', () => {
+  const { asFragment } = render(
+    <Provider store={store}>
+      <Details />
+    </Provider>,
+  );
+  expect(asFragment()).toMatchSnapshot();
+});

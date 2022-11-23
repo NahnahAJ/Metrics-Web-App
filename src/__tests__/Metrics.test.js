@@ -16,3 +16,12 @@ test('Check if metrics component Renders', () => {
   const linkElement = screen.getAllByRole('generic');
   expect(linkElement.length).toBeGreaterThan(1);
 });
+
+test('renders the Metrics component snapshot', () => {
+  const { asFragment } = render(
+    <Provider store={store}>
+      <Metrics />
+    </Provider>,
+  );
+  expect(asFragment()).toMatchSnapshot();
+});
