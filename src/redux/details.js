@@ -12,7 +12,7 @@ export const getOneApi = createAsyncThunk(
   GETSINGLEAPIDATA,
   async (id) => {
     try {
-      const response = await axios.get(`http://acnhapi.com/v1/art/${id}`);
+      const response = await axios.get(`https://acnhapi.com/v1/art/${id}`);
       const {
         'buy-price': buyPrice, 'file-name': fileName, hasFake, image_uri: imageUrl, 'sell-price': sellPrice, 'museum-desc': museumDesc, name,
       } = response.data;
