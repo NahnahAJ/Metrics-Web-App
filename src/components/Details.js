@@ -22,32 +22,35 @@ const Details = () => {
           <img src={artDetail.imageUrl} alt={artDetail.image_id} />
         </div>
         <table>
-          <tr>
-            <td>Piece code</td>
-            <td>{id}</td>
-          </tr>
-          <tr>
-            <td>Name</td>
-            <td>{artDetail.nameEU}</td>
-          </tr>
-          <tr>
-            <td>Buying Price</td>
-            <td>
-              $
-              {artDetail.buyPrice}
-            </td>
-          </tr>
-          <tr>
-            <td>Selling Price</td>
-            <td>
-              $
-              {artDetail.sellPrice}
-            </td>
-          </tr>
-          <tr>
-            <td>Details</td>
-            <td>{artDetail.museumDesc}</td>
-          </tr>
+          <tbody>
+
+            <tr>
+              <td>Piece code</td>
+              <td>{id}</td>
+            </tr>
+            <tr>
+              <td>Name</td>
+              <td>{artDetail.nameEU}</td>
+            </tr>
+            <tr>
+              <td>Buying Price</td>
+              <td>
+                $
+                {artDetail.buyPrice}
+              </td>
+            </tr>
+            <tr>
+              <td>Selling Price</td>
+              <td>
+                $
+                {artDetail.sellPrice}
+              </td>
+            </tr>
+            <tr>
+              <td>Details</td>
+              <td>{artDetail.museumDesc}</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </>
