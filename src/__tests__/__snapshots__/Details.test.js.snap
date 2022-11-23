@@ -2,11 +2,52 @@
 
 exports[`renders the Details component snapshot 1`] = `
 <DocumentFragment>
-  <div>
-    <p />
-    <h1 />
-    <h2 />
-    <img />
+  <div
+    class="detailsContainer"
+  >
+    <div
+      class="imgContainer displays"
+    >
+      <img />
+    </div>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            Piece code
+          </td>
+          <td />
+        </tr>
+        <tr>
+          <td>
+            Name
+          </td>
+          <td />
+        </tr>
+        <tr>
+          <td>
+            Buying Price
+          </td>
+          <td>
+            $
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Selling Price
+          </td>
+          <td>
+            $
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Details
+          </td>
+          <td />
+        </tr>
+      </tbody>
+    </table>
   </div>
 </DocumentFragment>
 `;
