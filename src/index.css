@@ -6,6 +6,15 @@
   padding: 0;
 }
 
-.consDisplay {
+:root {
+  --light-blue: #52c1e6;
+  --verylight-blue: #add8e6;
+}
+
+.displays {
   display: flex;
+}
+
+.iconSize {
+  font-size: 1.5rem;
 }

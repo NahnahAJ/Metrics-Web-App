@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { FaAngleDoubleRight } from 'react-icons/fa';
 import { getApiData } from '../redux/metrics';
+import '../styles/Metrics.modules.css';
 
 const Metrics = () => {
   const dispatch = useDispatch();
@@ -28,40 +30,41 @@ const Metrics = () => {
 
   return (
     <>
-      <div>
-        <div>
-          <input
-            type="text"
-            placeholder="search here"
-            onChange={(e) => searchItems(e.target.value)}
-          />
-        </div>
 
-        <div>
-          {searchFilter.length > 1 ? (
-            searchResults.map((key) => (
-              <div key={key.id}>
-                <img src={key.imageUrl} alt={key.image_id} />
-                <h3>{key.fileName}</h3>
-                <Link to={`details/${key.id}`}>
-                  <h2>{key.id}</h2>
-                </Link>
-              </div>
-            ))
-          ) : (
-            <div>
-              {artData.map((key) => (
-                <div key={key.id}>
-                  <img src={key.imageUrl} alt={key.image_id} />
-                  <h3>{key.fileName}</h3>
-                  <Link to={`details/${key.id}`}>
-                    <h2>{key.id}</h2>
-                  </Link>
-                </div>
-              ))}
+      <div className="searchBox">
+        <input
+          className="displays inputCmp"
+          type="text"
+          placeholder="search here"
+          onChange={(e) => searchItems(e.target.value)}
+        />
+      </div>
+
+      <h2 className="header">Pieces</h2>
+
+      <div className="searchPieces">
+        {searchFilter.length > 1 ? (
+          searchResults.map((key) => (
+            <div key={key.id} className="container displays">
+              <span className="svgContainer displays"><Link to={`details/${key.id}`}><FaAngleDoubleRight className="iconSize" /></Link></span>
+              <img src={key.imageUrl} alt={key.image_id} />
+              <h3>{key.fileName}</h3>
             </div>
-          )}
-        </div>
+          ))
+        ) : (
+          <div className="pieces">
+            {artData.map((key) => (
+              <div key={key.id} className="container displays">
+                <div className="svgContainer displays"><Link to={`details/${key.id}`}><FaAngleDoubleRight className="iconSize" /></Link></div>
+                <div><img src={key.imageUrl} alt={key.image_id} /></div>
+                <span>
+                  <h3>{key.nameEU}</h3>
+                  <h3 className="numbers">{key.id}</h3>
+                </span>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </>
   );

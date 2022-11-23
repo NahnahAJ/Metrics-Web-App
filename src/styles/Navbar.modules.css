@@ -1,3 +1,28 @@
 .consDisplay {
   justify-content: space-between;
+  padding: 1rem;
+}
+
+.consDisplay,
+.backBtn {
+  background-color: var(--light-blue);
+}
+
+.backBtn {
+  border: none;
+}
+
+.iconsCtn {
+  gap: 1rem;
+}
+
+@media only screen and (min-width: 725px) {
+  /* Desktops [725px -> 1400x] */
+  .consDisplay {
+    padding: 2rem;
+  }
+
+  .iconsCtn {
+    gap: 2rem;
+  }
 }
