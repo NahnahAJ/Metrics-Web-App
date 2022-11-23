@@ -9,6 +9,10 @@
   border-radius: 1rem;
 }
 
+input::placeholder {
+  text-align: center;
+}
+
 .pieces {
   grid-template-columns: 50% 50%;
 }
