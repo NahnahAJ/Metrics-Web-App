@@ -48,7 +48,7 @@ const Metrics = () => {
             <div key={key.id} className="container displays">
               <span className="svgContainer displays"><Link to={`details/${key.id}`}><FaAngleDoubleRight className="iconSize" /></Link></span>
               <img src={key.imageUrl} alt={key.image_id} />
-              <h3>{key.fileName}</h3>
+              <h3>{key.nameEU}</h3>
             </div>
           ))
         ) : (
