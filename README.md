@@ -34,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Metrics-Web-App] <a name="about-project"></a>
+# 📖 Metrics-Web-App <a name="about-project"></a>
 
-**[Metrics-Web-App]** is a mobile web application to that is used to check a list of metrics (numeric values) that will be created by making use of React and Redux and Data from the ACNH API.
+**Metrics-Web-App** is a mobile web application to that is used to check a list of metrics (numeric values) that will be created by making use of React and Redux and Data from the ACNH API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,9 +59,9 @@
 
 > Description of 1-3 key features of the application.
 
-- **[When the page loads, the webapp shows the list of art pieces that could be filtered out by some parameter]**
-- **[These art pieces are gotten from an API and when the user clicks (or taps) on a piece, the application navigates to the details page.]**
-- **[On the details page, the webapp retrieves data from the API to show detailed data of the piece that was clicked on and when the user clicks on the "Back" button (<), the user navigates back to the home page]**
+- **When the page loads, the webapp shows the list of art pieces that could be filtered out by some parameter**
+- **These art pieces are gotten from an API and when the user clicks (or taps) on a piece, the application navigates to the details page.**
+- **On the details page, the webapp retrieves data from the API to show detailed data of the piece that was clicked on and when the user clicks on the "Back" button (<), the user navigates back to the home page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,9 +144,9 @@ To run tests, run the following command:
 
 > Description of the new features for the project.
 
-- [ ] **[I will design a logo that will be put in the nav bar and remove the current block of text that I have as my logo]**
-- [ ] **[I intend to add additional pages in the website ie. a Reference page & a Categories page]**
-- [ ] **[Lastly, I implement some UX improvements: include transitions and/or animations I might add more features as I move forward]**
+- [ ] **I will design a logo that will be put in the nav bar and remove the current block of text that I have as my logo**
+- [ ] **I intend to add additional pages in the website ie. a Reference page & a Categories page**
+- [ ] **Lastly, I implement some UX improvements: include transitions and/or animations I might add more features as I move forward**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +172,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments & Attribution <a name="acknowledgements"></a>
 
-> I would like to thank Microverse and [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) Owner of the original design idea. [Creatve Commons Lincense of the Design](https://creativecommons.org/licenses/by-nc/4.0/) and Lastly the [ACHN API](http://acnhapi.com/doc#tag/Art).
+> I would like to thank Microverse and [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) Owner of the original design idea. Attribution: [Creatve Commons Lincense of the Design](https://creativecommons.org/licenses/by-nc/4.0/) and Lastly the [ACHN API](http://acnhapi.com/doc#tag/Art).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
