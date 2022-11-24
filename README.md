@@ -14,6 +14,9 @@ Building a mobile web application to check a list of metrics (numeric values) th
 ## Live Demo
 [Vintage](https://vintage-art-collection.netlify.app/)
 
+## Loom Video Link
+[Project Documentation](https://www.loom.com/share/8d32484262494a13b3ddcfea516ebf6e)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
