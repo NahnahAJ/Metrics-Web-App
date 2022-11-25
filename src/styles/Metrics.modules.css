@@ -68,8 +68,19 @@ input::placeholder {
   width: 90%;
 }
 
-@media only screen and (min-width: 725px) {
-  /* Desktops [725px -> 1400x] */
+@media only screen and (min-width: 725px) and (max-width: 1024px) {
+  /* Tablets [725 -> 1024x] */
+  .inputCmp {
+    padding: 1rem 10rem;
+  }
+
+  .header {
+    margin: 0 10rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Desktops [1024px -> 1400x] */
   .inputCmp {
     padding: 1rem 10rem;
   }
