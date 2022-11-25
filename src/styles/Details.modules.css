@@ -1,0 +1,35 @@
+.detailsContainer {
+  background-color: aliceblue;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.imgContainer {
+  width: 100%;
+  justify-content: center;
+  padding: 3rem;
+}
+
+td {
+  padding: 1rem;
+  width: 50%;
+}
+
+tr {
+  border: none;
+}
+
+tr:nth-child(odd) {
+  background-color: #4798b38e;
+}
+
+tr:nth-child(even) {
+  background-color: #add8e6;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Desktops [725px -> 1400x] */
+  .detailsContainer {
+    font-size: 1.3rem;
+  }
+}
