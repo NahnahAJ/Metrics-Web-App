@@ -69,7 +69,7 @@ input::placeholder {
 }
 
 @media only screen and (min-width: 725px) and (max-width: 1024px) {
-  /* Desktops [725 -> 1400x] */
+  /* Tablets [725 -> 1024x] */
   .inputCmp {
     padding: 1rem 10rem;
   }
